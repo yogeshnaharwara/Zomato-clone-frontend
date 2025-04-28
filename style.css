@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Okra, Arial, Helvetica, sans-serif;
+}
+header{
+    height: 500px;
+    width: 100%;
+    background-image: url(back.avif);
+    width: 100%;
+    height: 450px;
+}
+header nav .logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+header nav .logo img{
+    fill: #fff; 
+}
+header nav .logo h2{
+    color: white;
+    font-size: 14PX;
+    font-family: Okra, Arial, Helvetica, sans-serif;
+    padding: 8px;
+    font-weight: 100;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding-top: 17px;
+}
+header nav .navitem ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+}
+header nav .navitem ul li{
+    list-style-type: none;  
+    
+}
+header nav .navitem ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Okra, Arial, Helvetica, sans-serif;
+    padding: 8px;
+    font-weight: 100;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.name{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.name img{
+    width: 300px;
+    height: 60px;
+}
+.name1{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+}
+.name1 h2{
+    color: white;
+    font-size: 2.9rem;
+    font-family:Okra, Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 52px;
+    width: 770px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 43px;
+    
+}
+.searchbar .locat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-right: 2px solid #757575;
+    padding-right: 5px;
+}
+.searchbar .locat img{
+    margin-left: 7px;
+}
+.searchbar .locat h3{
+   font-family: Okra, Helvetica, sans-serif;
+   font-size: 13px;
+   color: #757575;
+}
+.searchicon{
+    width: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputtext input{
+    width: 482px;
+    height: 47px;
+    border: none;
+    font-size: 13px;
+}
+#foodtype{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    margin-top: 50px;
+
+}
+.img{
+    border: 1px solid #757575 ;
+    height: 240px;
+    width: 353px;
+    background-image: url(f1.avif);
+    background-position: center;
+    border-radius: 15px;
+}
+.img #text{
+    height: 86px;
+    width: 351px;
+    background-color: white;
+    margin-top: 152px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;  
+    border-radius: 15px; 
+    padding-left: 15px;
+}
+.img #text h2{
+    color: rgb(54 54 54);
+}
+.img #text p{
+    color:rgb(79 79 79)
+}
+.img1{
+    border: 1px solid #757575 ;
+    height: 240px;
+    width: 353px;
+    background-image: url(f2.avif);
+    background-position: center;
+    border-radius: 15px;
+}
+.img1 #text1{
+    height: 86px;
+    width: 351px;
+    background-color: white;
+    margin-top: 152px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;   
+    border-radius: 15px;
+    padding-left: 15px;
+}
+.img1 #text1 h2{
+    color: rgb(54 54 54);
+}
+.img1 #text1 p{
+    color:rgb(79 79 79)
+}
+.img2{
+    border: 1px solid #757575 ;
+    height: 240px;
+    width: 353px;
+    background-image: url(f3.jpeg);
+    background-position: center;
+    border-radius: 15px;
+}
+.img2 #text2{
+    height: 86px;
+    width: 351px;
+    background-color: white;
+    margin-top: 152px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;   
+    border-radius: 15px;
+    padding-left: 15px;
+}
+.img2 #text2 h2{
+    color: rgb(54 54 54);
+}
+.img2 #text2 p{
+    color:rgb(79 79 79)
+}
+#collection{
+    display: flex;
+   justify-content: flex-start;
+   
+    flex-direction: column;
+    width: 77%;
+    height: 434px;
+  
+    margin-left: 166px;
+    margin-top: 89px;
+    gap: 10px;
+}
+#collection h2{
+    font-size: 36px;
+}
+#collection .collect{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 303px;
+}
+#collection .collect p{
+    color: #757575;
+    font-weight: 400;
+}
+#collection .collect .withicon{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+#collection .place{
+   
+    height: 500px;
+    display: flex;
+    margin-top: 25px;
+    gap: 11px;
+}
+#collection .place .place1{
+    width: 267px;
+    height: 320px;
+    border-radius: 9px;
+    background-image: url(pl1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+#collection .place .place1 h2{
+    font-size: 18px;
+    margin-top: 268px;
+    color: white; 
+    padding-left: 15px;
+}
+#collection .place .place1 h3{
+    padding-left: 15px;
+}
+#collection .place .place2{
+    width: 267px;
+    height: 320px;
+    border-radius: 9px;
+    background-image: url(pl2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#collection .place .place2 h2{
+    font-size: 18px;
+    margin-top: 268px;
+    color: white; 
+    padding-left: 15px;
+}
+#collection .place .place2 h3{
+    padding-left: 15px;
+}
+#collection .place .place3{
+    width: 267px;
+    height: 320px;
+    border-radius: 9px;
+    background-image: url(pl3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#collection .place .place3 h2{
+    font-size: 18px;
+    margin-top: 268px;
+    color: white; 
+    padding-left: 15px;
+}
+#collection .place .place3 h3{
+    padding-left: 15px;
+}
+#collection .place .place4{
+    width: 267px;
+    height: 320px;
+    border-radius: 9px;
+    background-image: url(pl4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#collection .place .place4 h2{
+    font-size: 18px;
+    margin-top: 268px;
+    color: white; 
+    padding-left: 15px;
+}
+#collection .place .place4 h3{
+    padding-left: 15px;
+}
+#location{
+    width: 77%;
+    height: 434px;
+    margin-top: 85px;
+    margin-left: 166px;
+}
+#location .text h2{
+    font-size: 36px;
+    color: rgb(54, 54, 54);
+    font-weight: 100;
+}
+#location .box{
+    margin-top: 10px;
+    height: 329px;
+    display: grid;
+    overflow: scroll;
+    grid-template-columns: repeat(3,1fr);
+   gap: 13px;
+}
+#location .box .box1{
+   
+    height: 79px;
+    width: 356px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;;
+}
+#location .box .box1 .txt{
+   color: rgb(54, 54, 54);
+   padding-left: 15px;
+}
+#down{
+   height: 480px;
+   width: 100%;
+   background-color: rgb(255 251 247);
+   margin-top: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#down .phoneimg{
+    height: 450px;
+    width: 250px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#down .phoneimg img{
+    height: 250px;
+    width: 450px;
+}
+#down .app{
+    height: 450px;
+    width: 350px;
+    border: 2px solid;
+}
+
