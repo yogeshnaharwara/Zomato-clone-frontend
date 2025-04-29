@@ -1,4 +1,5 @@
 Zomato Clone (Frontend Only) - HTML & CSS
+live here : https://yogeshnaharwara.github.io/Zomato-clone-frontend/
 Overview
 This project is a frontend clone of the famous food delivery platform Zomato, built using only HTML and CSS.
 It focuses on replicating the design, layout, and responsiveness of Zomato’s homepage and essential sections.
